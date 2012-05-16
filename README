@@ -1,4 +1,41 @@
-Testando as funcionalidades do GITHUB no passo a passo.
-Documento para testes.
+Projeto de Gerência de Redes - Netkit
+================================================================================
 
-Carlos Maciel
+Sobre
+-----
+
+Este projeto contém uma simulação de um abiente de redes rodando alguns serviços essenciais como NTP, DHCP, DNS, HTTP e
+SQL database. Experimento realizado para utilização nas aulas de Gerência de Redes 2012/1, ministrado pelo Professor Dr.
+Ederson Torresini.
+
+Para rodar este projeto é necessário:
+
+1) S.O. Linux
+
+2) Netkit
+
+Obs.: O projeto está em constante atualização, portanto ainda não contém todas suas funcionalidades conforme informado 
+anteriormente.
+
+
+Sobre o Netkit
+--------------
+
+Netkit é um ambiente para experimentos com redes de computadores desenvolvido na Unversidade de Roma, na Itália. 
+Com ele torna-se possível realizar experimentos sobre configuração básica de rede, roteamento, criação de infraestrutura
+WAN com MPLS, além de dispor de diversos serviços de rede (DNS, WWW, LDAP, e outros). Ele se compõe de máquinas virtuais
+Linux (implementadas com kernel Linux UML – User Mode Linux), que funcionam como roteadores ou computadores, e switches
+Ethernet virtuais (UML switch) para interligar as máquinas virtuais. Para todos os efeitos, cada máquina virtual 
+funciona como se fosse um computador real, possuindo uma ou mais interfaces de rede. Com esses recursos é possível criar
+redes de configurações arbitrárias para estudar protocolos de comunicação e serviços de rede. 
+
+Instalação do Netkit
+-------------------
+
+Seguir passos contidos no link: http://wiki.sj.ifsc.edu.br/wiki/index.php/Netkit
+
+Autor
+----
+
+Projeto Desenvolvido pelo aluno Carlos Moisés Araldi Maciel do Instituto Federal de Santa Catarina IFSC.
+
